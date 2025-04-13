@@ -18,6 +18,7 @@ The Dashboard provides a comprehensive visual interface for monitoring and manag
 - **Job Submission Interface**: Submit and test jobs directly from the dashboard
 
 ## Technical Implementation
+- **Tech Stack**: Vite + React + TypeScript + TailwindCSS
 - Modern web application with responsive design
 - Real-time updates using WebSocket connections to the Job Server
 - Interactive data visualizations for system metrics
