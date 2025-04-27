@@ -1,7 +1,7 @@
-# Zcaler Dashboard
+# Dashboard
 
 ## Overview
-The Dashboard provides a comprehensive visual interface for monitoring and managing the Zcaler distributed computing network. It offers real-time insights into system performance, node status, and job progress.
+The Dashboard provides a comprehensive visual interface for monitoring and managing the distributed computing network. It offers real-time insights into system performance, node status, and job progress.
 
 ## Purpose
 - Delivers transparent visibility into the entire distributed computing system
@@ -34,8 +34,8 @@ The Dashboard provides a comprehensive visual interface for monitoring and manag
 
 1. Clone the repository
 ```bash
-git clone https://github.com/SpareCore/zcaler.git
-cd zcaler/zcaler-dashboard
+git clone https://github.com/SpareCore/dashboard.git
+cd dashboard
 ```
 
 2. Install dependencies
@@ -65,7 +65,7 @@ The build files will be in the `dist` directory and can be served using any stat
 The dashboard connects to the Job Server API. By default, it connects to `http://localhost:8080/api`. You can change this in the Settings page or by modifying the source code in `src/api/api.ts`.
 
 ## Integration
-The Dashboard connects directly to the Job Server's API endpoints to retrieve system data and issue commands, serving as the primary interface for human interaction with the Zcaler distributed computing network.
+The Dashboard connects directly to the Job Server's API endpoints to retrieve system data and issue commands, serving as the primary interface for human interaction with the distributed computing network.
 
 ## Deployment
 The Dashboard can be deployed alongside the Job Server or as a standalone web application, accessible to administrators for monitoring and managing the distributed computing environment.
