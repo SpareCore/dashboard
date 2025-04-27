@@ -56,7 +56,7 @@ export default function Header({ onOpen, isConnected }: HeaderProps) {
           fontWeight="bold"
           display={{ base: 'none', md: 'flex' }}
         >
-          Zcaler Dashboard
+          Dashboard
         </Text>
         
         <Text
@@ -65,7 +65,7 @@ export default function Header({ onOpen, isConnected }: HeaderProps) {
           fontWeight="bold"
           display={{ base: 'flex', md: 'none' }}
         >
-          ZD
+          DB
         </Text>
         
         <Flex alignItems="center">

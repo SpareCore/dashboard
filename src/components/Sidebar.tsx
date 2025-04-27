@@ -84,7 +84,7 @@ function SidebarContent({ onClose, ...rest }: SidebarContentProps) {
     >
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
         <Text fontSize="2xl" fontFamily="monospace" fontWeight="bold">
-          Zcaler
+          SpareCore
         </Text>
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
