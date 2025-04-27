@@ -1,7 +1,7 @@
 {
-  "name": "zcaler-dashboard",
+  "name": "sparecore-dashboard",
   "version": "1.0.0",
-  "description": "## Overview The Dashboard provides a comprehensive visual interface for monitoring and managing the GoPine distributed computing network. It offers real-time insights into system performance, node status, and job progress.",
+  "description": "A comprehensive visual interface for monitoring and managing distributed computing networks. It offers real-time insights into system performance, node status, and job progress.",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
