@@ -1,0 +1,43 @@
+{
+  "name": "zcaler-dashboard",
+  "version": "1.0.0",
+  "description": "## Overview The Dashboard provides a comprehensive visual interface for monitoring and managing the GoPine distributed computing network. It offers real-time insights into system performance, node status, and job progress.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpareCore/dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpareCore/dashboard/issues"
+  },
+  "homepage": "https://github.com/SpareCore/dashboard#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^3.16.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/recharts": "^1.8.29",
+    "@types/socket.io-client": "^1.4.36",
+    "@vitejs/plugin-react": "^4.4.1",
+    "framer-motion": "^12.9.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.2",
+    "recharts": "^2.15.3",
+    "socket.io-client": "^4.8.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3"
+  }
+}
